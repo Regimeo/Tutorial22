@@ -44,7 +44,6 @@ public class playercontroller : MonoBehaviour
      if (score == 4)
      {
          transform.position = new Vector2(30.0f, -2.0f);
-         Camera.main.transform.position = new Vector3 (30.0f, 0.5f, -10.0f);
          lives = 3;
          SetAllText();
      }
